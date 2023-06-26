@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background-color: #1c1c1c !important; */
+    background-image: url('https://www.ubm.br/indiqueumamigo/assets/images/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    height: 100vh;
+}
+
+h6 {
+    color: #a900ff !important;
+}
+
+span,
+strong {
+    color: #fff;
+
+}
+
+.nomeLogo {
+    font-size: 32px;
+}
+
+.inputCodigo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 8px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    background: transparent !important;
+    border-color: #a900ff !important;
+    color: #a900ff !important;
+}
+
+label {
+    color: #a900ff;
+}
+
+#resposta {
+    display: grid;
+    justify-items: center;
+}
+
+.valido {
+    background-color: #25d366;
+    color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    /* width: 85%; */
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: #a900ff !important;
+    border: #a900ff !important;
+}
+
+.invalido {
+    background-color: #fd3c52;
+    color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+}
+
+
+footer {
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 0%) !important;
+    background-color: #fff !important;
+    border-color: #a900ff !important;
+    color: #a900ff !important;
+}
+
+.DisplayImg {
+    display: grid;
+    justify-items: center;
+    margin-top: 3rem;
+}
+
+.imgLogo {
+    width: 200px;
+}
